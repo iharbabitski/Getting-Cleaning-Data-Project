@@ -3,18 +3,17 @@
 Quick Guide 
 ======================================================================================================
 
-To run analysis on the accelerometers reads from the samsung galaxy S smartphones you need to following steps:
+To run analysis on the accelerometers reads from the Samsung galaxy S smartphones you need to following steps:
 
-1. download raw data from the following link:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+1. download raw data from the following link:https://d396qusza40orc.cloudfront.net/getdata/projectfiles/UCI HAR Dataset.zip 
 2. Unpack data in your working directory
-3. Download R script “run_analysis.R” from the following repository: https://github.com/iharbabitski/Getting-Cleaning-Data-Project// check latest commits
+3. Download R script run_analysis.R from the following repository: https://github.com/iharbabitski/Getting-Cleaning-Data-Project// check latest commits
 4. Run R script to conduct the analysis
 
 
-Requirents
-======================================================================================================
+RequirenRequirements================================================================================================
 
-To successfully run the analysis it is required to have “dplyr” package installed
+To successfully run the analysis it is required to have dplyr package installed
 dplyr library will be loaded during script execution
 
 
@@ -23,9 +22,9 @@ Outputs
 
 R script produces two outputs:
 
-1. Tidy data set “pr3_table1” which contains measurements on mean and standard deviation on accelerometers reads for the training and test data sets 
+1. Tidy data set pr3_table1 which contains measurements on mean and standard deviation on accelerometers reads for the training and test data sets 
 and specifies descriptive activity labels.
-2. Data set “pr3_table2” which contains average of each variable for each activity and each subject for pr3_table1 data set.
+2. Data set pr3_table2 which contains average of each variable for each activity and each subject for pr3_table1 data set.
 
 
 Step by Step Analysis 
@@ -51,14 +50,14 @@ Step by Step Analysis
 		- Activity labels are populated by using inner_join
 
 	4	Appropriately labels the data set with descriptive variable names. 
-		- New columns populated accordingly to the source file names “Activity” and “Subject”
+		- New columns populated accordingly to the source file names Activity and Subject
 
 	5	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 		- New data set is created by using aggregate function and grouping by both Subjects and Activity
 
 
 
-R Script / “run_analysis.R”
+R Script / run_analysis.R
 ======================================================================================================
 
 # Warning!!!
@@ -66,10 +65,10 @@ R Script / “run_analysis.R”
 
 ##################################STATUS MESSAGE###################################
 print("dplyr package is required to run analysis")
-print("opening lIbrary(dplyr)")
+print("opening lIbrary(library)
 
 #load packges
-library(dplyr)
+packagesy(dplyr)
 
 ##################################STATUS MESSAGE###################################
 print("opening data files from working directory...")
@@ -186,6 +185,7 @@ print("analysis completed!")
 ##################################STATUS MESSAGE###################################
 print("writing final table into working directory")
 write.table(pr3_table2,file="pr3_table2.txt",row.name=FALSE)
+
 
 # Final results
 ##################################STATUS MESSAGE###################################
