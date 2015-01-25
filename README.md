@@ -11,7 +11,8 @@ To run analysis on the accelerometers reads from the Samsung galaxy S smartphone
 4. Run R script to conduct the analysis
 
 
-RequirenRequirements================================================================================================
+Requirements
+================================================================================================
 
 To successfully run the analysis it is required to have dplyr package installed
 dplyr library will be loaded during script execution
