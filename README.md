@@ -5,7 +5,7 @@ Quick Guide
 
 To run analysis on the accelerometers reads from the Samsung Galaxy S smartphones you need to following steps:
 
-1. download raw data from the following link:https://d396qusza40orc.cloudfront.net/getdata/projectfiles/UCI HAR Dataset.zip 
+1. Download raw data from the following link:https://d396qusza40orc.cloudfront.net/getdata/projectfiles/UCI HAR Dataset.zip 
 2. Unpack data in your working directory
 3. Download R script run_analysis.R from the following repository: https://github.com/iharbabitski/Getting-Cleaning-Data-Project// check latest commits (88399c6f38f4f6b93a5cd531d3b222ffdf0f754c)
 4. Run R script to conduct the analysis
