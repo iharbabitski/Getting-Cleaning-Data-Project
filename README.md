@@ -62,7 +62,7 @@ R Script / run_analysis.R
 ======================================================================================================
 
 # Warning!!!
-# to run analysis it is required to have dplyr and sqldf packages installed
+# to run analysis it is required to have dplyr package installed
 
 ##################################STATUS MESSAGE###################################
 print("dplyr package is required to run analysis")
