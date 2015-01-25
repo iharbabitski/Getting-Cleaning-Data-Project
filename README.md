@@ -31,7 +31,7 @@ and specifies descriptive activity labels.
 Step by Step Analysis 
 ======================================================================================================
 
-   	1	Merges the training and the test sets to create one data set.
+   	1	Merge the training and the test sets to create one data set.
 		- Program reads raw data files from the working directory and creates new variable for each file. Following files are processed:
 			-activity_labels.txt
 			-features.txt
@@ -44,16 +44,16 @@ Step by Step Analysis
 		- Data sets are merged through the rbind function
 		- Subject are added by using cbind
 
-	2	Extracts only the measurements on the mean and standard deviation for each measurement. 
+	2	Extract only the measurements on the mean and standard deviation for each measurement. 
 		- Mean and stander deviation columns are identified through the partial string match using grepl functions, unused columns dropped
 
-	3	Uses descriptive activity names to name the activities in the data set
+	3	Use descriptive activity names to name the activities in the data set
 		- Activity labels are populated by using inner_join
 
-	4	Appropriately labels the data set with descriptive variable names. 
+	4	Appropriately label the data set with descriptive variable names. 
 		- New columns populated accordingly to the source file names Activity and Subject
 
-	5	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+	5	From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 		- New data set is created by using aggregate function and grouping by both Subjects and Activity
 
 
