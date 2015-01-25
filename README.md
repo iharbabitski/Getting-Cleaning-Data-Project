@@ -30,7 +30,7 @@ and specifies descriptive activity labels.
 Step by Step Analysis 
 ======================================================================================================
 
-   1	Merges the training and the test sets to create one data set.
+   	1	Merges the training and the test sets to create one data set.
 		- Program reads raw data files from the working directory and creates new variable for each file. Following files are processed:
 			-activity_labels.txt
 			-features.txt
