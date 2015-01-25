@@ -3,7 +3,7 @@
 Quick Guide 
 ======================================================================================================
 
-To run analysis on the accelerometers reads from the Samsung galaxy S smartphones you need to following steps:
+To run analysis on the accelerometers reads from the Samsung Galaxy S smartphones you need to following steps:
 
 1. download raw data from the following link:https://d396qusza40orc.cloudfront.net/getdata/projectfiles/UCI HAR Dataset.zip 
 2. Unpack data in your working directory
